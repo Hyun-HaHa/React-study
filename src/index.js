@@ -1,6 +1,7 @@
 
 import { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -30,6 +31,8 @@ root.render(
         <button onClick={handleClick}>가위</button>
         <button onClick={handleClick}>바위</button>
         <button onClick={handleClick}>보</button>
+
+        <App/>
     </>
     ,document.getElementById('root')
 );
