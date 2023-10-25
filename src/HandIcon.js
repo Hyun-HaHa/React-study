@@ -8,11 +8,11 @@ const resultImg = {
     paper : paperImg
 };
 
-function HandIcon({ value }){
+function HandIcon({ className, value }){
     //
     const src = resultImg[value];
     //
-    return <img src={src} alt={value}/>
+    return <img className={className} src={src} alt={value}/>;
     //
 }
 
